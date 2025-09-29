@@ -1,0 +1,32 @@
+Heart Disease Prediction - Model Evaluation Results
+==================================================
+
+Logistic Regression:
+  Accuracy: 0.8333
+  Precision: 0.8462
+  Recall: 0.7857
+  F1-Score: 0.8148
+
+Decision Tree:
+  Accuracy: 0.7000
+  Precision: 0.6923
+  Recall: 0.6429
+  F1-Score: 0.6667
+
+Random Forest:
+  Accuracy: 0.8667
+  Precision: 0.8846
+  Recall: 0.8214
+  F1-Score: 0.8519
+
+SVM:
+  Accuracy: 0.8500
+  Precision: 0.8800
+  Recall: 0.7857
+  F1-Score: 0.8302
+
+
+Best Model (After Hyperparameter Tuning):
+  Model: Random Forest
+  Parameters: {'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 200}
+  Test Accuracy: 0.8333
